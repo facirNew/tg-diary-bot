@@ -4,8 +4,8 @@ import xlwt
 import os.path
 from datetime import datetime
 from xlutils.copy import copy
+from auth import TOKEN
 
-TOKEN = "5800444955:AAG5UNnWzS_DVUYKPgAdhkJXRIak83QjJCs"
 bot = telebot.TeleBot(TOKEN)
 bot.delete_webhook()
 
